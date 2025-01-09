@@ -8,6 +8,10 @@ ip_sources(${IP} SYSTEMVERILOG
     ${CMAKE_CURRENT_LIST_DIR}/ubus_tb_top.sv
     )
 
+ip_include_directories(${IP} SYSTEMVERILOG
+    .
+)
+
 add_subdirectory("../dut/" dut)
 add_subdirectory("../agent/" agent)
 
