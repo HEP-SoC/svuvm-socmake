@@ -24,6 +24,9 @@
 
  ******************************************************************************/
 
+`ifndef _UBUS_IF_SV
+`define _UBUS_IF_SV
+
 interface ubus_if;
 
   // Control flags
@@ -134,3 +137,4 @@ end
 
 endinterface : ubus_if
 
+`endif

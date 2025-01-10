@@ -19,6 +19,8 @@
 //   permissions and limitations under the License.
 //----------------------------------------------------------------------
 
+`ifndef _UBUS_PKG_SV
+`define _UBUS_PKG_SV
 
 package ubus_pkg;
 
@@ -47,3 +49,4 @@ package ubus_pkg;
 
 endpackage: ubus_pkg
 
+`endif
